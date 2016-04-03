@@ -1,0 +1,9 @@
+# Intermediary compile steps
+/js/build
+/js/min
+
+# Dist
+/www
+
+# Node stuff
+/node_modules
