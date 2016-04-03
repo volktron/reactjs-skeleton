@@ -10,6 +10,7 @@
 ## Usage
 * `gulp` will build the project
 * `gulp watch` will run build whenever `.jsx` files in `/js/src` change.
+* Build will put all final output files in `/www`
 
 ## Performance notes
 To facilitate the fastest possible build pipeline, two things have been implemented:
