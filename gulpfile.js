@@ -89,7 +89,7 @@ gulp.task('concat', ['uglify'], function(){
 gulp.task('build', ['babel','uglify','concat']);
 
 gulp.task('watch', ['build'], function(){
-    var watcher = gulp.watch('js/src/**/*.js', ['build']);
+    var watcher = gulp.watch('js/src/**/*.{js,jsx}', ['build']);
     watcher.on('change', function(event) {
         console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
